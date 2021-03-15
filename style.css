@@ -107,7 +107,7 @@ section {
     padding: 25px 0px; 
 }
 
-#ourhotel .col > h2 {
+.h2styles {
     font-family: 'playfair display' , serif; 
     font-size: 2.5em; 
 }
@@ -139,8 +139,6 @@ section {
 }
 
 #accomodations .row > h2 {
-    font-family: 'playfair display' , serif; 
-    font-size: 2.5em;
     text-align: center;
 }
 
@@ -196,8 +194,6 @@ section {
 }
 
 #havelook .row > h2 {
-    font-family: 'playfair display' , serif; 
-    font-size: 2.5em;
     text-align: center;
 }
 
@@ -220,8 +216,6 @@ section {
 }
 
 #activities .col > h2 {
-    font-family: 'playfair display' , serif; 
-    font-size: 2.5em;
     text-align: center;
 }
 
@@ -233,7 +227,7 @@ section {
 
 #activities .gridActivities {
     display:grid; 
-    background: yellow; 
+    background: tomato; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
